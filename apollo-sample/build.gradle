@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'com.apollographql.android'
+
+
+
+dependencies {
+  compile group: 'org.jetbrains', name: 'annotations', version: '17.0.0'
+
+  implementation "com.apollographql.apollo:apollo-runtime:1.1.3"
+  testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.5.2'
+}
